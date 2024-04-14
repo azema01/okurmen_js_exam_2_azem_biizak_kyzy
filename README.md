@@ -1,0 +1,1 @@
+# okurmen_js_exam_2_azem_biizak_kyzy
