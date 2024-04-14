@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Cocktail</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cocktail Search</h1>
+        <input type="text" id="searchInput" placeholder="Search for a cocktail...">
+        <button id="searchButton">Search</button>
+    </div>
+    <div class="cocktail-thumbnails" id="cocktailImageContainer"></div>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="cocktailInfo">
+                <img id="cocktailImage" src="#" alt="Cocktail Image" class="cocktail-thumbnail">
+                <h2 id="cocktailName"></h2>
+                <div id="ingredientImages"></div>
+                <div id="cocktailIngredients"></div>
+                <p id="instructions"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
